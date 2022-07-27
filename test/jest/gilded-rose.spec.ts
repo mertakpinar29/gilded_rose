@@ -25,7 +25,7 @@ describe("All tests", () => {
       ({ input, expectedResult }) => {
         numOfDays = 10;
         // second input will be helpful for us to find out if degrationRate is working properly on negative sellIn values.
-        // thirs input will be helpful for us to find out if degrationRate is working properly on Conjured items
+        // third input will be helpful for us to find out if degrationRate is working properly on Conjured items
         applyUpdateQuality(numOfDays, new GildedRose(input));
         expect(input).toEqual(expectedResult);
       }
